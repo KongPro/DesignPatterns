@@ -20,6 +20,15 @@
 		4B5817AD2A623899000B674B /* TVSubOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5817AC2A623899000B674B /* TVSubOne.m */; };
 		4B5817B02A6238A4000B674B /* TVSubTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5817AF2A6238A4000B674B /* TVSubTwo.m */; };
 		4B5817B32A62391A000B674B /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5817B22A62391A000B674B /* BridgeViewController.m */; };
+		4B77B7D42A65465E00E05127 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B7D32A65465E00E05127 /* Driver.m */; };
+		4B77B7F52A65497D00E05127 /* AudiDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B7F42A65497D00E05127 /* AudiDriver.m */; };
+		4B77B7F82A65498B00E05127 /* BMWDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B7F72A65498B00E05127 /* BMWDriver.m */; };
+		4B77B7FB2A65499300E05127 /* BenzDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B7FA2A65499300E05127 /* BenzDriver.m */; };
+		4B77B8072A654B2000E05127 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B8062A654B2000E05127 /* AbstractFactory.m */; };
+		4B77B80A2A655C8B00E05127 /* AudiAbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B8092A655C8B00E05127 /* AudiAbstractFactory.m */; };
+		4B77B80D2A655C9800E05127 /* BMWAbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B80C2A655C9800E05127 /* BMWAbstractFactory.m */; };
+		4B77B8102A655CA300E05127 /* BenzAbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B80F2A655CA300E05127 /* BenzAbstractFactory.m */; };
+		4B77B8142A655D8300E05127 /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77B8132A655D8300E05127 /* AbstractFactoryViewController.m */; };
 		4BA118272A63BA6F00D80C01 /* FactoryMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA118062A63BA6F00D80C01 /* FactoryMethodViewController.m */; };
 		4BA118292A63BA6F00D80C01 /* AudiFactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1180C2A63BA6F00D80C01 /* AudiFactoryMethod.m */; };
 		4BA1182A2A63BA6F00D80C01 /* BMWFactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1180E2A63BA6F00D80C01 /* BMWFactoryMethod.m */; };
@@ -58,6 +67,24 @@
 		4B5817AF2A6238A4000B674B /* TVSubTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVSubTwo.m; sourceTree = "<group>"; };
 		4B5817B12A62391A000B674B /* BridgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeViewController.h; sourceTree = "<group>"; };
 		4B5817B22A62391A000B674B /* BridgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeViewController.m; sourceTree = "<group>"; };
+		4B77B7D22A65465E00E05127 /* Driver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		4B77B7D32A65465E00E05127 /* Driver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		4B77B7F32A65497D00E05127 /* AudiDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudiDriver.h; sourceTree = "<group>"; };
+		4B77B7F42A65497D00E05127 /* AudiDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiDriver.m; sourceTree = "<group>"; };
+		4B77B7F62A65498B00E05127 /* BMWDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWDriver.h; sourceTree = "<group>"; };
+		4B77B7F72A65498B00E05127 /* BMWDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWDriver.m; sourceTree = "<group>"; };
+		4B77B7F92A65499300E05127 /* BenzDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenzDriver.h; sourceTree = "<group>"; };
+		4B77B7FA2A65499300E05127 /* BenzDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenzDriver.m; sourceTree = "<group>"; };
+		4B77B8052A654B2000E05127 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		4B77B8062A654B2000E05127 /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		4B77B8082A655C8B00E05127 /* AudiAbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudiAbstractFactory.h; sourceTree = "<group>"; };
+		4B77B8092A655C8B00E05127 /* AudiAbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudiAbstractFactory.m; sourceTree = "<group>"; };
+		4B77B80B2A655C9800E05127 /* BMWAbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMWAbstractFactory.h; sourceTree = "<group>"; };
+		4B77B80C2A655C9800E05127 /* BMWAbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMWAbstractFactory.m; sourceTree = "<group>"; };
+		4B77B80E2A655CA300E05127 /* BenzAbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BenzAbstractFactory.h; sourceTree = "<group>"; };
+		4B77B80F2A655CA300E05127 /* BenzAbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenzAbstractFactory.m; sourceTree = "<group>"; };
+		4B77B8122A655D8300E05127 /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryViewController.h; sourceTree = "<group>"; };
+		4B77B8132A655D8300E05127 /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryViewController.m; sourceTree = "<group>"; };
 		4BA118062A63BA6F00D80C01 /* FactoryMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodViewController.m; sourceTree = "<group>"; };
 		4BA1180A2A63BA6F00D80C01 /* FactoryMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethodViewController.h; sourceTree = "<group>"; };
 		4BA1180C2A63BA6F00D80C01 /* AudiFactoryMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudiFactoryMethod.m; sourceTree = "<group>"; };
@@ -112,7 +139,7 @@
 		4B5817752A62330C000B674B /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				4BA117FD2A63BA4E00D80C01 /* 工厂 */,
+				4BA117FD2A63BA4E00D80C01 /* 工厂模式 */,
 				4B58178F2A623332000B674B /* 桥接模式 */,
 				4B5817762A62330C000B674B /* AppDelegate.h */,
 				4B5817772A62330C000B674B /* AppDelegate.m */,
@@ -164,16 +191,102 @@
 			path = SubClass;
 			sourceTree = "<group>";
 		};
-		4BA117FD2A63BA4E00D80C01 /* 工厂 */ = {
+		4B77B7E32A65474E00E05127 /* DirverCompanyFactory */ = {
 			isa = PBXGroup;
 			children = (
-				4BA118162A63BA6F00D80C01 /* SubClass */,
-				4BA1181D2A63BA6F00D80C01 /* BaseClass */,
+				4B77B8052A654B2000E05127 /* AbstractFactory.h */,
+				4B77B8062A654B2000E05127 /* AbstractFactory.m */,
+				4B77B8082A655C8B00E05127 /* AudiAbstractFactory.h */,
+				4B77B8092A655C8B00E05127 /* AudiAbstractFactory.m */,
+				4B77B80B2A655C9800E05127 /* BMWAbstractFactory.h */,
+				4B77B80C2A655C9800E05127 /* BMWAbstractFactory.m */,
+				4B77B80E2A655CA300E05127 /* BenzAbstractFactory.h */,
+				4B77B80F2A655CA300E05127 /* BenzAbstractFactory.m */,
+			);
+			path = DirverCompanyFactory;
+			sourceTree = "<group>";
+		};
+		4B77B7ED2A6548F200E05127 /* CarClass */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B7EE2A65490800E05127 /* BaseClass */,
+				4B77B7EF2A65491300E05127 /* SubClass */,
+			);
+			path = CarClass;
+			sourceTree = "<group>";
+		};
+		4B77B7EE2A65490800E05127 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				4BA1181E2A63BA6F00D80C01 /* Car.h */,
+				4BA1181F2A63BA6F00D80C01 /* Car.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		4B77B7EF2A65491300E05127 /* SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				4BA1181C2A63BA6F00D80C01 /* Audi.h */,
+				4BA118192A63BA6F00D80C01 /* Audi.m */,
+				4BA118172A63BA6F00D80C01 /* BMW.h */,
+				4BA1181B2A63BA6F00D80C01 /* BMW.m */,
+				4BA1181A2A63BA6F00D80C01 /* Benz.h */,
+				4BA118182A63BA6F00D80C01 /* Benz.m */,
+			);
+			path = SubClass;
+			sourceTree = "<group>";
+		};
+		4B77B7F02A65493900E05127 /* DriverClass */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B7F12A65494100E05127 /* BaseClass */,
+				4B77B7F22A65494800E05127 /* SubClass */,
+			);
+			path = DriverClass;
+			sourceTree = "<group>";
+		};
+		4B77B7F12A65494100E05127 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B7D22A65465E00E05127 /* Driver.h */,
+				4B77B7D32A65465E00E05127 /* Driver.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		4B77B7F22A65494800E05127 /* SubClass */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B7F32A65497D00E05127 /* AudiDriver.h */,
+				4B77B7F42A65497D00E05127 /* AudiDriver.m */,
+				4B77B7F62A65498B00E05127 /* BMWDriver.h */,
+				4B77B7F72A65498B00E05127 /* BMWDriver.m */,
+				4B77B7F92A65499300E05127 /* BenzDriver.h */,
+				4B77B7FA2A65499300E05127 /* BenzDriver.m */,
+			);
+			path = SubClass;
+			sourceTree = "<group>";
+		};
+		4B77B8112A655D5C00E05127 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B8122A655D8300E05127 /* AbstractFactoryViewController.h */,
+				4B77B8132A655D8300E05127 /* AbstractFactoryViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4BA117FD2A63BA4E00D80C01 /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				4B77B7F02A65493900E05127 /* DriverClass */,
+				4B77B7ED2A6548F200E05127 /* CarClass */,
 				4BA118142A63BA6F00D80C01 /* 简单工厂模式 */,
 				4BA117FE2A63BA6F00D80C01 /* 工厂方法模式 */,
 				4BA118352A63BFA300D80C01 /* 抽象工厂模式 */,
 			);
-			path = "工厂";
+			path = "工厂模式";
 			sourceTree = "<group>";
 		};
 		4BA117FE2A63BA6F00D80C01 /* 工厂方法模式 */ = {
@@ -209,28 +322,6 @@
 			path = "简单工厂模式";
 			sourceTree = "<group>";
 		};
-		4BA118162A63BA6F00D80C01 /* SubClass */ = {
-			isa = PBXGroup;
-			children = (
-				4BA118172A63BA6F00D80C01 /* BMW.h */,
-				4BA118182A63BA6F00D80C01 /* Benz.m */,
-				4BA118192A63BA6F00D80C01 /* Audi.m */,
-				4BA1181A2A63BA6F00D80C01 /* Benz.h */,
-				4BA1181B2A63BA6F00D80C01 /* BMW.m */,
-				4BA1181C2A63BA6F00D80C01 /* Audi.h */,
-			);
-			path = SubClass;
-			sourceTree = "<group>";
-		};
-		4BA1181D2A63BA6F00D80C01 /* BaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				4BA1181E2A63BA6F00D80C01 /* Car.h */,
-				4BA1181F2A63BA6F00D80C01 /* Car.m */,
-			);
-			path = BaseClass;
-			sourceTree = "<group>";
-		};
 		4BA118212A63BA6F00D80C01 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +352,8 @@
 		4BA118352A63BFA300D80C01 /* 抽象工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4B77B8112A655D5C00E05127 /* VC */,
+				4B77B7E32A65474E00E05127 /* DirverCompanyFactory */,
 			);
 			path = "抽象工厂模式";
 			sourceTree = "<group>";
@@ -338,22 +431,31 @@
 				4BA118302A63BA6F00D80C01 /* BMW.m in Sources */,
 				4B5817A42A623536000B674B /* RemoterSub.m in Sources */,
 				4BA118292A63BA6F00D80C01 /* AudiFactoryMethod.m in Sources */,
+				4B77B8142A655D8300E05127 /* AbstractFactoryViewController.m in Sources */,
 				4BA118312A63BA6F00D80C01 /* Car.m in Sources */,
+				4B77B8072A654B2000E05127 /* AbstractFactory.m in Sources */,
 				4BA1182D2A63BA6F00D80C01 /* SimpleFactoryViewController.m in Sources */,
+				4B77B7F52A65497D00E05127 /* AudiDriver.m in Sources */,
 				4B58177E2A62330C000B674B /* ViewController.m in Sources */,
 				4BA1182C2A63BA6F00D80C01 /* BenzFactoryMethod.m in Sources */,
+				4B77B80D2A655C9800E05127 /* BMWAbstractFactory.m in Sources */,
 				4BA1182F2A63BA6F00D80C01 /* Audi.m in Sources */,
 				4B5817952A6233B0000B674B /* TVBase.m in Sources */,
 				4B5817B32A62391A000B674B /* BridgeViewController.m in Sources */,
+				4B77B80A2A655C8B00E05127 /* AudiAbstractFactory.m in Sources */,
 				4BA1182E2A63BA6F00D80C01 /* Benz.m in Sources */,
 				4BA118272A63BA6F00D80C01 /* FactoryMethodViewController.m in Sources */,
 				4BA1182B2A63BA6F00D80C01 /* CarFactoryMethod.m in Sources */,
 				4B5817AD2A623899000B674B /* TVSubOne.m in Sources */,
 				4BA118322A63BA6F00D80C01 /* CarFactory.m in Sources */,
+				4B77B7FB2A65499300E05127 /* BenzDriver.m in Sources */,
+				4B77B7F82A65498B00E05127 /* BMWDriver.m in Sources */,
+				4B77B7D42A65465E00E05127 /* Driver.m in Sources */,
 				4B5817922A62336A000B674B /* RemoterBase.m in Sources */,
 				4BA1182A2A63BA6F00D80C01 /* BMWFactoryMethod.m in Sources */,
 				4B5817782A62330C000B674B /* AppDelegate.m in Sources */,
 				4B5817892A62330E000B674B /* main.m in Sources */,
+				4B77B8102A655CA300E05127 /* BenzAbstractFactory.m in Sources */,
 				4B5817B02A6238A4000B674B /* TVSubTwo.m in Sources */,
 				4B58177B2A62330C000B674B /* SceneDelegate.m in Sources */,
 			);
