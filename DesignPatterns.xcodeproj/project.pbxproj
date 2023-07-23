@@ -40,6 +40,10 @@
 		4BA118302A63BA6F00D80C01 /* BMW.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1181B2A63BA6F00D80C01 /* BMW.m */; };
 		4BA118312A63BA6F00D80C01 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA1181F2A63BA6F00D80C01 /* Car.m */; };
 		4BA118322A63BA6F00D80C01 /* CarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA118222A63BA6F00D80C01 /* CarFactory.m */; };
+		4BCB5FC12A6D2F0700871777 /* MoneyOfDollor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB5FC02A6D2F0700871777 /* MoneyOfDollor.m */; };
+		4BCB5FC82A6D30C900871777 /* AdapterOfDollor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB5FC72A6D30C900871777 /* AdapterOfDollor.m */; };
+		4BCB5FCD2A6D361F00871777 /* AdapterOfDollorByObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB5FCC2A6D361F00871777 /* AdapterOfDollorByObjc.m */; };
+		4BCB5FD12A6D382B00871777 /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB5FD02A6D382B00871777 /* AdapterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +111,15 @@
 		4BA118202A63BA6F00D80C01 /* SimpleFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFactoryViewController.h; sourceTree = "<group>"; };
 		4BA118222A63BA6F00D80C01 /* CarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarFactory.m; sourceTree = "<group>"; };
 		4BA118232A63BA6F00D80C01 /* CarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarFactory.h; sourceTree = "<group>"; };
+		4BCB5FBF2A6D2F0700871777 /* MoneyOfDollor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyOfDollor.h; sourceTree = "<group>"; };
+		4BCB5FC02A6D2F0700871777 /* MoneyOfDollor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyOfDollor.m; sourceTree = "<group>"; };
+		4BCB5FC52A6D2FBA00871777 /* MoneyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyProtocol.h; sourceTree = "<group>"; };
+		4BCB5FC62A6D30C900871777 /* AdapterOfDollor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterOfDollor.h; sourceTree = "<group>"; };
+		4BCB5FC72A6D30C900871777 /* AdapterOfDollor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterOfDollor.m; sourceTree = "<group>"; };
+		4BCB5FCB2A6D361F00871777 /* AdapterOfDollorByObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterOfDollorByObjc.h; sourceTree = "<group>"; };
+		4BCB5FCC2A6D361F00871777 /* AdapterOfDollorByObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterOfDollorByObjc.m; sourceTree = "<group>"; };
+		4BCB5FCF2A6D382B00871777 /* AdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
+		4BCB5FD02A6D382B00871777 /* AdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +152,7 @@
 		4B5817752A62330C000B674B /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4BCB5FBE2A6D2ECA00871777 /* 适配器模式 */,
 				4BA117FD2A63BA4E00D80C01 /* 工厂模式 */,
 				4B58178F2A623332000B674B /* 桥接模式 */,
 				4B5817762A62330C000B674B /* AppDelegate.h */,
@@ -358,6 +372,46 @@
 			path = "抽象工厂模式";
 			sourceTree = "<group>";
 		};
+		4BCB5FBE2A6D2ECA00871777 /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB5FC52A6D2FBA00871777 /* MoneyProtocol.h */,
+				4BCB5FBF2A6D2F0700871777 /* MoneyOfDollor.h */,
+				4BCB5FC02A6D2F0700871777 /* MoneyOfDollor.m */,
+				4BCB5FC92A6D351C00871777 /* 类适配器 */,
+				4BCB5FCA2A6D352700871777 /* 对象适配器 */,
+				4BCB5FCE2A6D381800871777 /* VC */,
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		4BCB5FC92A6D351C00871777 /* 类适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB5FC62A6D30C900871777 /* AdapterOfDollor.h */,
+				4BCB5FC72A6D30C900871777 /* AdapterOfDollor.m */,
+			);
+			path = "类适配器";
+			sourceTree = "<group>";
+		};
+		4BCB5FCA2A6D352700871777 /* 对象适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB5FCB2A6D361F00871777 /* AdapterOfDollorByObjc.h */,
+				4BCB5FCC2A6D361F00871777 /* AdapterOfDollorByObjc.m */,
+			);
+			path = "对象适配器";
+			sourceTree = "<group>";
+		};
+		4BCB5FCE2A6D381800871777 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB5FCF2A6D382B00871777 /* AdapterViewController.h */,
+				4BCB5FD02A6D382B00871777 /* AdapterViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -442,7 +496,9 @@
 				4BA1182F2A63BA6F00D80C01 /* Audi.m in Sources */,
 				4B5817952A6233B0000B674B /* TVBase.m in Sources */,
 				4B5817B32A62391A000B674B /* BridgeViewController.m in Sources */,
+				4BCB5FC82A6D30C900871777 /* AdapterOfDollor.m in Sources */,
 				4B77B80A2A655C8B00E05127 /* AudiAbstractFactory.m in Sources */,
+				4BCB5FC12A6D2F0700871777 /* MoneyOfDollor.m in Sources */,
 				4BA1182E2A63BA6F00D80C01 /* Benz.m in Sources */,
 				4BA118272A63BA6F00D80C01 /* FactoryMethodViewController.m in Sources */,
 				4BA1182B2A63BA6F00D80C01 /* CarFactoryMethod.m in Sources */,
@@ -452,11 +508,13 @@
 				4B77B7F82A65498B00E05127 /* BMWDriver.m in Sources */,
 				4B77B7D42A65465E00E05127 /* Driver.m in Sources */,
 				4B5817922A62336A000B674B /* RemoterBase.m in Sources */,
+				4BCB5FCD2A6D361F00871777 /* AdapterOfDollorByObjc.m in Sources */,
 				4BA1182A2A63BA6F00D80C01 /* BMWFactoryMethod.m in Sources */,
 				4B5817782A62330C000B674B /* AppDelegate.m in Sources */,
 				4B5817892A62330E000B674B /* main.m in Sources */,
 				4B77B8102A655CA300E05127 /* BenzAbstractFactory.m in Sources */,
 				4B5817B02A6238A4000B674B /* TVSubTwo.m in Sources */,
+				4BCB5FD12A6D382B00871777 /* AdapterViewController.m in Sources */,
 				4B58177B2A62330C000B674B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
