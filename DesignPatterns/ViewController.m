@@ -10,7 +10,8 @@
 #import "SimpleFactoryViewController.h" // 简单工厂模式
 #import "FactoryMethodViewController.h" // 工厂方法模式
 #import "AbstractFactoryViewController.h"   // 抽象方法模式
-#import "AdapterViewController.h"
+#import "AdapterViewController.h"   // 适配者模式
+#import "ObserverViewController.h"  // 订阅者模式
 
 @interface ViewController ()
 
@@ -38,8 +39,12 @@
 //    AbstractFactoryViewController *abstract = [[AbstractFactoryViewController alloc] init];
 //    [self.navigationController pushViewController:abstract animated:YES];
 //    适配器模式
-    AdapterViewController *adapter = [[AdapterViewController alloc] init];
-    [self.navigationController pushViewController:adapter animated:YES];
+//    AdapterViewController *adapter = [[AdapterViewController alloc] init];
+//    [self.navigationController pushViewController:adapter animated:YES];
+    
+//    观察者模式
+    ObserverViewController *observerVC = [[ObserverViewController alloc] init];
+    [self.navigationController pushViewController:observerVC animated:YES];
 }
 
 

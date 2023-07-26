@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B15BA982A710D47005BFB77 /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B15BA972A710D47005BFB77 /* ObserverViewController.m */; };
+		4B30669C2A6E62C700BB229E /* ObserverCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B30669B2A6E62C700BB229E /* ObserverCenter.m */; };
 		4B5817782A62330C000B674B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5817772A62330C000B674B /* AppDelegate.m */; };
 		4B58177B2A62330C000B674B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58177A2A62330C000B674B /* SceneDelegate.m */; };
 		4B58177E2A62330C000B674B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58177D2A62330C000B674B /* ViewController.m */; };
@@ -47,6 +49,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B15BA962A710D47005BFB77 /* ObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
+		4B15BA972A710D47005BFB77 /* ObserverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObserverViewController.m; sourceTree = "<group>"; };
+		4B3066992A6E62AA00BB229E /* ObserverProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverProtocol.h; sourceTree = "<group>"; };
+		4B30669A2A6E62C700BB229E /* ObserverCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverCenter.h; sourceTree = "<group>"; };
+		4B30669B2A6E62C700BB229E /* ObserverCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObserverCenter.m; sourceTree = "<group>"; };
 		4B5817732A62330C000B674B /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5817762A62330C000B674B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B5817772A62330C000B674B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,6 +140,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B15BA952A710D1D005BFB77 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4B15BA962A710D47005BFB77 /* ObserverViewController.h */,
+				4B15BA972A710D47005BFB77 /* ObserverViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		4B3066982A6E626400BB229E /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				4B3066992A6E62AA00BB229E /* ObserverProtocol.h */,
+				4B30669A2A6E62C700BB229E /* ObserverCenter.h */,
+				4B30669B2A6E62C700BB229E /* ObserverCenter.m */,
+				4B15BA952A710D1D005BFB77 /* VC */,
+			);
+			path = "观察者模式";
+			sourceTree = "<group>";
+		};
 		4B58176A2A62330C000B674B = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +179,7 @@
 		4B5817752A62330C000B674B /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4B3066982A6E626400BB229E /* 观察者模式 */,
 				4BCB5FBE2A6D2ECA00871777 /* 适配器模式 */,
 				4BA117FD2A63BA4E00D80C01 /* 工厂模式 */,
 				4B58178F2A623332000B674B /* 桥接模式 */,
@@ -488,6 +516,7 @@
 				4B77B8142A655D8300E05127 /* AbstractFactoryViewController.m in Sources */,
 				4BA118312A63BA6F00D80C01 /* Car.m in Sources */,
 				4B77B8072A654B2000E05127 /* AbstractFactory.m in Sources */,
+				4B15BA982A710D47005BFB77 /* ObserverViewController.m in Sources */,
 				4BA1182D2A63BA6F00D80C01 /* SimpleFactoryViewController.m in Sources */,
 				4B77B7F52A65497D00E05127 /* AudiDriver.m in Sources */,
 				4B58177E2A62330C000B674B /* ViewController.m in Sources */,
@@ -514,6 +543,7 @@
 				4B5817892A62330E000B674B /* main.m in Sources */,
 				4B77B8102A655CA300E05127 /* BenzAbstractFactory.m in Sources */,
 				4B5817B02A6238A4000B674B /* TVSubTwo.m in Sources */,
+				4B30669C2A6E62C700BB229E /* ObserverCenter.m in Sources */,
 				4BCB5FD12A6D382B00871777 /* AdapterViewController.m in Sources */,
 				4B58177B2A62330C000B674B /* SceneDelegate.m in Sources */,
 			);
